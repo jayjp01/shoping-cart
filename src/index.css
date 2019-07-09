@@ -1,0 +1,149 @@
+html {
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: normal;
+    color: rgba(0,0,0,0.87);
+    background-color: #f1f1f1;
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 1280px;
+}
+.max-width-700  {
+    max-width: 700px;
+}
+.cart {
+    margin: 40px auto;
+}
+h5 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 1.0933333333rem 0 .656rem 0;
+    font-weight: 400;
+}
+.collection {
+    margin: .5rem 0 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.collection .collection-item {
+    background-color: #fff;
+    padding: 30px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #4a4a4a;
+}
+.card{
+    width: 300px;
+}
+.cart{
+    margin-top:40px;
+}
+.flex-middle {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-1 {
+    flex: 1;
+}
+.addcart{
+    margin-left: 8px; 
+    margin-right: 8px;
+    padding-bottom: 7px; 
+}
+.productquantity {
+      width: 40px;
+}
+.number_item{
+    font-weight: bold;
+    line-height: 2.5rem!important;;
+}
+li {
+    list-style-type: none;
+}
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+.total{
+    float: right;
+    font-weight: bold;
+}
+.pl-8{
+   padding-left: 8%;
+}
+.mr-16 {
+    margin-right: 16px;
+}
+input {
+text-align: center;
+}
+.title{
+    font-size: 14px;
+}
+.del{
+    font-size:24px
+}
+.product-details{
+    margin-left: 16px;
+    color: #777;
+    font-size: 12px;
+}
+.product-price{
+    margin-left: 300px;
+     color: #777;
+     font-size: 12px;
+}
+.product-total{
+    margin-left: 76px;
+     color: #777;
+     font-size: 12px;
+}
+.cl-gray{
+    color: gray;
+}
+.fs-b{
+    font-weight: bold;
+}
+.button {
+  background-color: #1041b1e8;
+  border: none;
+  color: white;
+  padding: 12px 130px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+@media screen and (max-width: 650px) {
+    .column-labels{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
